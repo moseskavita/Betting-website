@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>betting tips</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #form {
+        margin: 30px;
+        border: 1px solid;
+        height: 70vh;
+        width: 20%;
+        margin-left: 30%;
+        border-radius: 30px;
+        background: purple;
+      }
+      input[type="text"],
+      input[type="password"],
+      input[type="number"] {
+        margin: 20px;
+        padding: 8px;
+        border-radius: 30px;
+        outline: none;
+        border: 1px solid;
+      }
+      input[type="submit"] {
+        margin: 20px;
+        border-radius: 20px;
+        padding: 8px;
+        outline: none;
+        border: none;
+        background: red;
+      }
+      h5 {
+        border: 1px solid red;
+        width: 80%;
+        height: 5vh;
+        color: white;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div id="menu">
+        <div id="logo">
+          <img src="image/logo.PNG" width="300px" height="250px" />
+        </div>
+        <ul id="nav">
+          <li><a href="index.php">home</a></li>
+          <li><a href="Vip tips.html">VIP TIPS</a></li>
+          <li>
+            predictions
+            <ul>
+              <li><a href="Todays.html">Today</a></li>
+
+              <li>
+                Leagues
+                <ul>
+                  <li><a href="premierleague.html">Premier league</a></li>
+                  <li><a href="laliga.html">Laliga</a></li>
+                  <li><a href="seriesA.html">Series A</a></li>
+                  <li><a href="ligue1.html">Ligue 1</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="helpdesk.html">Help desk</a></li>
+        </ul>
+        <div id="connect">
+          <ul>
+            <li><a href="register.html">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <form id="form" action="php/register.php" method="post" autocomplete="off">
+      <input
+        type="text"
+        name="username"
+        placeholder="type your username"
+        required
+      />
+      <input type="text" name="email" placeholder="type your email" required />
+      <input
+        type="password"
+        name="password"
+        placeholder="type your password"
+        required
+      />
+      <input
+        type="password"
+        name="confirm"
+        placeholder="retype password"
+        required
+      />
+      <h5>Please pay through the mpesa.....0799774184</h5>
+      <input type="submit" name="submit" value="submit" />
+    </form>
+    <div class="footer">
+      <div id="navigation">
+        <ul>
+          <li><a href="home.html">home</a></li>
+          <li><a href="contacts.html">contacts</a></li>
+          <li><a href="helpdesk.html">help desk</a></li>
+        </ul>
+      </div>
+      <div id="navigation">
+        <ul>
+          <li><a href="home.html">home</a></li>
+          <li><a href="contacts.html">contacts</a></li>
+          <li><a href="bettips.html">bettips</a></li>
+        </ul>
+      </div>
+      <div id="navigation">
+        <ul>
+          <li><a href="home.html">home</a></li>
+          <li><a href="contacts.html">contacts</a></li>
+          <li><a href="bettips.html">bettips</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

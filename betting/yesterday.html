@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>todays</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #header {
+        background:url('image/head3.jpg');
+        display: grid;
+        grid-template-columns: 20% auto;
+        height: 70vh;
+        background-position:center;
+      }
+      #nav li {
+  padding: 10px 20px;
+  list-style: none;
+  background-color: grey;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  color: white;
+  cursor: pointer;
+  width: 120px;
+}
+
+#nav li a {
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+#nav li:hover {
+  background-color: red;
+}
+#nav ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  right: 0%;
+}
+#nav li:hover > ul {
+  display: block;
+}
+#nav ul ul {
+  display: none;
+  left: 100%;
+  top: 0%;
+  position: absolute;
+}
+#nav ul li:hover > ul {
+  display: block;
+}
+      #yesterday {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 70% auto;
+      }
+      #tbl-yesterday {
+        background: grey;
+        border-radius: 30px;
+        overflow: hidden;
+        color: white;
+         width: 90%;
+        display: grid;
+        place-items: center;
+        height:50vh;
+        text-align:center;
+      }
+    #sel{
+      margin:20px;
+    }
+      #p-pay{
+        margin:20px;
+         }
+
+      #info-pay {
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        line-height: 30px;
+        font-size: 20px;
+        height:80vh;
+      }
+      #youtube {
+  margin: 20px;
+}
+#story {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#stry {
+  display: flex;
+  margin: 20px;
+}
+#str {
+  display: flex;
+  margin: 20px;
+}
+b {
+  margin: 20px;
+  font-size: 30px;
+  color: blue;
+}
+      .footer{
+          background:grey;
+          display:grid;
+          grid-template-columns:1fr 1fr 1fr;
+      }
+      #navigation li{
+          list-style-type:none;
+      }
+      #navigation ul li a{
+          text-decoration:none;
+          margin:20px;
+          color:white;
+          display:block;
+          transition:.2s linear;
+      }
+      #navigation ul li a:hover{
+          color:blue;
+          letter-spacing:2px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div id="img-logo">
+        <img src="image/logo.png" width="250px" height="300px" />
+      </div>
+      <ul id="nav">
+        <li><a href="index.php">home</a></li>
+        <li><a href="contacts.html">contacts</a></li>
+        <li>predictions
+          <ul>
+            <li><a href="Todays.html">Today</a></li>
+            <li><a href="yesterday.html">Yesterday</a></li>
+            <li><a href="leagues.html">Leagues</a>
+              <ul>
+                <li><a href="premierleague.html">Premier league</a></li>
+                <li><a href="laliga.html">Laliga</a></li>
+                <li><a href="seriesA.html">Series A</a></li>
+                <li><a href="ligue1.html">Ligue 1</a></li>
+              </ul>
+            </li>
+          </ul>
+         </li>
+       <li><a href="helpdesk.html">Help desk</a></li>
+      </ul>
+    </header>
+
+    <section id="yesterday">
+     <div id="select">
+      <div id="tbl-yesterday">
+          <h4>TODAYS PREDICTION</h4>
+        <table border="1" width="80%" cellspacing="0">
+          <tr>
+            <th>HOME TEAM</th>
+            <TH>AWAY TEAM</TH>
+            <TH>TIP</TH>
+          </tr>
+          <tr>
+            <td>man u</td>
+            <td>chelsea</td>
+            <td>draw</td>
+          </tr>
+          <tr>
+            <td>man u</td>
+            <td>chelsea</td>
+            <td>draw</td>
+          </tr>
+          <tr>
+            <td>man u</td>
+            <td>chelsea</td>
+            <td>draw</td>
+          </tr>
+          <tr>
+            <td>man u</td>
+            <td>chelsea</td>
+            <td>draw</td>
+          </tr>
+          <tr>
+            <td>man u</td>
+            <td>chelsea</td>
+            <td>draw</td>
+          </tr>
+          <tr>
+            <td>man u</td>
+            <td>chelsea</td>
+            <td>draw</td>
+          </tr>
+        </table>
+      </div>
+      <div id="sel">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, veniam nobis dolore quam accusamus labore ipsum sunt? 
+        Laborum minus esse quis, consequatur magni provident recusandae sed ipsam eum modi dolores?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, veniam nobis dolore quam accusamus labore ipsum sunt? 
+        Laborum minus esse quis, consequatur magni provident recusandae sed ipsam eum modi dolores?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, veniam nobis dolore quam accusamus labore ipsum sunt? 
+        Laborum minus esse quis, consequatur magni provident recusandae sed ipsam eum modi dolores?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, veniam nobis dolore quam accusamus labore ipsum sunt? 
+        Laborum minus esse quis, consequatur magni provident recusandae sed ipsam eum modi dolores?
+      </div>
+      </div>
+      <div id="info-pay">
+        <div id="pay">
+          <img src="image/happy.png" width="50%" height="50%" style="margin-left:30%;">
+          <div id="p-pay">
+          <p>Hey guys....enjoying our free bets</p>
+          <p>
+            you can even enjoy more by joining the vip section where you will
+            get your 6 best special bets... there is a high guarantee that you
+            will walk away with full pockets
+          </p>
+          <p>for you to join the vip section</p>
+          <ol>
+            <li>
+              you can pay <font color="blue">500ksh</font> for 1 week predictions or pay<font color="blue">1500ksh</font> for
+              monthly predictions
+            </li>
+            <li>
+              during registration you will be required to pay first to complete
+              the registration....a verification code will be sent to you
+            </li>
+          </ol>
+        </div>
+      </div>
+      </div>
+    </section>
+    <b>Related videos</b>
+    <div id="youtube">
+        
+      <div id="story">
+        <div id="stryv">
+          <div id="stry"><img src="image/hazard.jpg" width="300px" height="200px" style="border:1px solid;"><p>This id what hazard has to say about real madrid<a href="www.laliga.com"></a>
+      </p></div>
+      <div id="stry"><img src="image/messi.jpg" width="300px" height="200px" style="border:1px solid;"><p>This id what hazard has to say about real madrid<a href="www.laliga.com"></a>
+      </p></div>
+      <div id="stry"><img src="image/eden.png" width="300px" height="200px" style="border:1px solid;"><p>This id what hazard has to say about real madrid<a href="www.laliga.com"></a>
+      </p></div></div>
+      <div id="stri">
+      <div id="str"><img src="image/chelsea.jpg" width="300px" height="200px" style="border:1px solid;"><p>This id what hazard has to say about real madrid<a href="www.laliga.com"></a>
+      </p></div>
+      <div id="str"><img src="image/player.jpg" width="300px" height="200px" style="border:1px solid;"><p>This id what hazard has to say about real madrid<a href="www.laliga.com"></a>
+      </p></div>
+      <div id="str"><img src="image/hazard.jpg" width="300px" height="200px" style="border:1px solid;"><p>This id what hazard has to say about real madrid<a href="www.laliga.com"></a>
+      </p></div>
+    </div>
+    </div>
+    <div class="footer">
+        <div id="navigation">
+          <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="contacts.html">contacts</a></li>
+            <li><a href="bettips.html">bettips</a></li>
+          </ul>
+        </div>
+        <div id="navigation">
+          <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="contacts.html">contacts</a></li>
+            <li><a href="bettips.html">bettips</a></li>
+          </ul>
+        </div>
+        <div id="navigation">
+          <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="contacts.html">contacts</a></li>
+            <li><a href="bettips.html">bettips</a></li>
+          </ul>
+        </div>
+  </body>
+</html>
